@@ -18,12 +18,10 @@ Using logistic regression find the predicted values of accuracy , confusion matr
 Display the results.
 
 ## Program:
-```
-~~~PYTHON
-Program to implement the the Logistic Regression Model to Predict the Placement Status of Student.
-Developed by: JANANI.V.S
-RegisterNumber: 212222230050
-
+## Program to implement the the Logistic Regression Model to Predict the Placement Status of Student.
+## Developed by: JANANI.V.S
+## RegisterNumber: 212222230050
+~~~python
 import numpy as np
 from sklearn.datasets import fetch_california_housing
 from sklearn.linear_model import SGDRegressor
@@ -76,7 +74,6 @@ print("Mean Squared Error:", mse)
 #optionally, print some predictions
 print("\nPredictions:\n",Y_pred[:5]) #print first 5 predictions
 ~~~
-```
 
 ## Output:
 
